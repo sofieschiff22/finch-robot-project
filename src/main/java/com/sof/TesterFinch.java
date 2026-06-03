@@ -8,12 +8,12 @@ public class TesterFinch{
 
         bird.setBeak(0, 100, 0);
 
-        bird.drawPentagon();
-        
+        bird.askInput();
 
         bird.stopAll();
         bird.disconnect();
     }
+    
 }
 
 
